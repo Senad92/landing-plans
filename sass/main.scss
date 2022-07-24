@@ -1,12 +1,19 @@
-
-// import theme style
-@import "components/common";
+// import fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 // import variables
 @import "variables";
 
-// import fonts
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+// import theme style
+@import "components/common"; 
+// import header style
+@import "components/header";
+// import pricing style
+@import "components/pricing";
+// import registration style
+@import "components/registration";  
+// import footer style
+@import "components/footer"; 
 
 // import bootstrap  
-@import '../node_modules/bootstrap/scss/bootstrap.scss'; 
+@import '../node_modules/bootstrap/scss/bootstrap.scss';  

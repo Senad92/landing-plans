@@ -1,0 +1,133 @@
+.main-head {
+	background: $primary-color;
+	box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .15);
+	padding: 1rem;
+	margin-bottom: 0;
+	margin-top: 5rem;
+	color: $white-color;
+	font-weight: 500; 
+	text-transform: uppercase;
+	border-radius: 4px;
+	font-size: 16px;
+}
+.pricing-table {
+	background: $white-color;
+	box-shadow: 0px 1px 10px -6px rgba(0, 0, 0, .70);
+	padding: 2rem;
+	border-radius: 4px;
+	transition: .3s;
+	display: flex;
+	flex-direction: column;
+	&:hover {
+		box-shadow: 0px 1px 10px -4px rgba(0, 0, 0, .90);
+	}
+	.price {
+		margin-top: auto;
+	}
+	.pricing-label { 
+		border-radius: 2px;
+		padding: .25rem .5rem;
+		margin-bottom: 1rem;
+		display: inline-block;
+		font-size: 12px;
+		font-weight: 500;
+	}
+	h2 {
+		color: $first-color;
+		font-size: 24px;
+		font-weight: 500;
+	}
+	h5 {
+		color: $second-color;
+		font-size: 14px;
+		font-weight: 400;
+	}
+	.pricing-features {
+		margin-top: 2rem;
+		.feature {
+			font-size: 14px;
+			margin: .5rem 0;
+			color: $second-color;
+			span {
+				display: inline-block;
+				float: right;
+				color: $first-color;
+				font-weight: 500;
+			}
+		}
+	}
+	.price-tag {
+		margin-top: 2rem;
+		text-align: center;
+		font-weight: 500;
+		.symbol {
+			font-size: 24px;
+		}
+		.amount {
+			letter-spacing: -2px;
+			font-size: 64px;
+		}
+		.after {
+			color: $first-color;
+			font-weight: 500;
+		}
+	}
+	.price-button {
+		display: block;
+		color: $white-color;
+		margin-top: 2rem;
+		padding: .75rem;
+		border-radius: 2px;
+		text-align: center;
+		font-weight: 500;
+		transition: .3s;
+		&:hover {
+			text-decoration: none; 
+		}
+	}
+}
+.purple {
+	.pricing-label {
+		background: $grey-color;
+		color: $blue-color;
+	}
+	.price-tag {
+		color: $blue-color;
+	}
+	.price-button {
+		background: $blue-color;
+		&:hover {
+			background: $blue-hover-color;
+		}
+	}
+}
+.turquoise {
+	.pricing-label {
+		background: $torquoise-color;
+		color: $torquoise-colorr;
+	}
+	.price-tag {
+		color: $torquoise-colorr;
+	}
+	.price-button {
+		background: $torquoise-colorr;
+		&:hover {
+			background: $torquoise-hover-colorr;
+		}
+	}
+}
+.red {
+	.pricing-label {
+		background: $light-red-color;
+		color: $red-color;
+	}
+	.price-tag {
+		color: $red-color;
+	}
+	.price-button {
+		background: $red-color;
+		&:hover {
+			background: $light-red-hover-color;
+		}
+	}
+}
