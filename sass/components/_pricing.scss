@@ -23,6 +23,11 @@
 	}
 	.price {
 		margin-top: auto;
+		span {
+			display: flex;
+			justify-content: center;
+			font-weight: bold;   
+		}
 	}
 	.pricing-label { 
 		border-radius: 2px;
